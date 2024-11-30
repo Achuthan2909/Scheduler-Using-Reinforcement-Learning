@@ -28,6 +28,19 @@
    ```
    This will install the package along with all its dependencies as specified in setup.py.
 
+## Running the Application
+
+After installing all dependencies, run the main script to perform team splitting and time period allocation:
+
+```bash
+python main.py
+```
+
+This will:
+- Split teams according to the configured parameters
+- Allocate time periods for each team
+- Generate the necessary output
+
 ## Important Notes
 - Make sure you're using Python version between 3.9 and 3.11
 - Always activate the virtual environment before running the project
